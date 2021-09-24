@@ -52,3 +52,44 @@ header nav .nav-menu {
 header nav .nav-menu li {
     margin-right: 10px;
 }
+
+main {
+    background-image: url('../assets/fondo.png');
+    background-color: darkgray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 840px;
+    width: 100%;
+}
+
+footer {
+    align-items: center;
+    background-color: cornflowerblue;
+    bottom: 0;
+    display: grid;
+    font-size: 1.8rem;
+    grid-template-columns: 1fr 1fr;
+    height: 60px;
+    position: absolute;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-self: left;
+}
+
+footer .footer-left {
+    justify-self: right;
+}
+
+footer .footer-left li {
+    margin-right: 5px;
+}
